@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.blockchain.base.Listeners"/>
+</listeners>
+
+   <test thread-count="5" name="Launch OCN ChildNetwork Tests">
+    <classes>
+      <class name="com.blockchain.tests.LaunchOCNChildNetworkTests"/>
+    </classes> 
+   </test> 
+   
+   <test thread-count="5" name="SignIn Flow Tests">
+    <classes>
+      <class name="com.blockchain.tests.SigninFlowTests"/>
+    </classes>
+   </test>
+   
+   <test thread-count="5" name="OCN Flow Tests">
+    <classes>  
+      <class name="com.blockchain.tests.OnboardingOCNNodeFlowTests"/>
+    </classes>  
+   </test>
+    
+   <test thread-count="5" name="Signup Tests">
+    <classes>
+      <class name="com.blockchain.tests.SignUpTests"/>
+    </classes>    
+   </test>
+        
+   <test thread-count="5" name="SignOut Tests">
+    <classes>
+      <class name="com.blockchain.tests.SignOutTests"/>
+    </classes>
+   </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

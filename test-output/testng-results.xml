@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="14" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-29T15:49:55 IST" name="Suite" finished-at="2025-04-29T15:53:41 IST" duration-ms="225797">
+    <groups>
+      <group name="regression">
+        <method signature="LaunchOCNChildNetworkTests.verifyAddingOCNChildNetwork()[pri:0, instance:com.blockchain.tests.LaunchOCNChildNetworkTests@4659191b]" name="verifyAddingOCNChildNetwork" class="com.blockchain.tests.LaunchOCNChildNetworkTests"/>
+        <method signature="SigninFlowTests.verifyLogin()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" name="verifyLogin" class="com.blockchain.tests.SigninFlowTests"/>
+        <method signature="SigninFlowTests.verifyLoginWithValidEmailAndInvalidPassword()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" name="verifyLoginWithValidEmailAndInvalidPassword" class="com.blockchain.tests.SigninFlowTests"/>
+        <method signature="OnboardingOCNNodeFlowTests.verifyDashboardOptionNdesArePresent()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" name="verifyDashboardOptionNdesArePresent" class="com.blockchain.tests.OnboardingOCNNodeFlowTests"/>
+        <method signature="OnboardingOCNNodeFlowTests.verifyAddingOnboardOCNNode()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" name="verifyAddingOnboardOCNNode" class="com.blockchain.tests.OnboardingOCNNodeFlowTests"/>
+        <method signature="SignUpTests.verifySingup()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" name="verifySingup" class="com.blockchain.tests.SignUpTests"/>
+        <method signature="SignUpTests.verifySingupWithExisingUserDetails()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" name="verifySingupWithExisingUserDetails" class="com.blockchain.tests.SignUpTests"/>
+        <method signature="SignOutTests.verfiySignOut()[pri:0, instance:com.blockchain.tests.SignOutTests@7161d8d1]" name="verfiySignOut" class="com.blockchain.tests.SignOutTests"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LaunchOCNChildNetworkTests.verifyAddingOCNChildNetwork()[pri:0, instance:com.blockchain.tests.LaunchOCNChildNetworkTests@4659191b]" name="verifyAddingOCNChildNetwork" class="com.blockchain.tests.LaunchOCNChildNetworkTests"/>
+        <method signature="SigninFlowTests.verifyLogin()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" name="verifyLogin" class="com.blockchain.tests.SigninFlowTests"/>
+        <method signature="SigninFlowTests.verifyLoginWithUnRegisteredEmailAndValidPassword()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" name="verifyLoginWithUnRegisteredEmailAndValidPassword" class="com.blockchain.tests.SigninFlowTests"/>
+        <method signature="OnboardingOCNNodeFlowTests.verifyDashboardOptionNdesArePresent()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" name="verifyDashboardOptionNdesArePresent" class="com.blockchain.tests.OnboardingOCNNodeFlowTests"/>
+        <method signature="OnboardingOCNNodeFlowTests.verifyAddingOnboardOCNNode()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" name="verifyAddingOnboardOCNNode" class="com.blockchain.tests.OnboardingOCNNodeFlowTests"/>
+        <method signature="SignUpTests.verifySingup()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" name="verifySingup" class="com.blockchain.tests.SignUpTests"/>
+        <method signature="SignOutTests.verfiySignOut()[pri:0, instance:com.blockchain.tests.SignOutTests@7161d8d1]" name="verfiySignOut" class="com.blockchain.tests.SignOutTests"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-04-29T15:49:55 IST" name="Launch OCN ChildNetwork Tests" finished-at="2025-04-29T15:50:20 IST" duration-ms="25142">
+      <class name="com.blockchain.tests.LaunchOCNChildNetworkTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.LaunchOCNChildNetworkTests@4659191b]" started-at="2025-04-29T15:49:55 IST" name="setUp" finished-at="2025-04-29T15:50:06 IST" duration-ms="10527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddingOCNChildNetwork()[pri:0, instance:com.blockchain.tests.LaunchOCNChildNetworkTests@4659191b]" started-at="2025-04-29T15:50:06 IST" name="verifyAddingOCNChildNetwork" finished-at="2025-04-29T15:50:20 IST" duration-ms="14358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingOCNChildNetwork -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.LaunchOCNChildNetworkTests@4659191b]" started-at="2025-04-29T15:50:20 IST" name="tearDown" finished-at="2025-04-29T15:50:20 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blockchain.tests.LaunchOCNChildNetworkTests -->
+    </test> <!-- Launch OCN ChildNetwork Tests -->
+    <test started-at="2025-04-29T15:50:20 IST" name="SignIn Flow Tests" finished-at="2025-04-29T15:51:02 IST" duration-ms="41378">
+      <class name="com.blockchain.tests.SigninFlowTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" started-at="2025-04-29T15:50:20 IST" name="setUp" finished-at="2025-04-29T15:50:29 IST" duration-ms="8513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" started-at="2025-04-29T15:50:29 IST" name="verifyLogin" finished-at="2025-04-29T15:50:35 IST" duration-ms="5499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" started-at="2025-04-29T15:50:35 IST" name="tearDown" finished-at="2025-04-29T15:50:35 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" started-at="2025-04-29T15:50:35 IST" name="setUp" finished-at="2025-04-29T15:50:43 IST" duration-ms="8693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithUnRegisteredEmailAndValidPassword()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" started-at="2025-04-29T15:50:43 IST" name="verifyLoginWithUnRegisteredEmailAndValidPassword" finished-at="2025-04-29T15:50:48 IST" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithUnRegisteredEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" started-at="2025-04-29T15:50:48 IST" name="tearDown" finished-at="2025-04-29T15:50:48 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" started-at="2025-04-29T15:50:48 IST" name="setUp" finished-at="2025-04-29T15:50:53 IST" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" started-at="2025-04-29T15:50:53 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2025-04-29T15:51:02 IST" duration-ms="8986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.SigninFlowTests@78e4deb0]" started-at="2025-04-29T15:51:02 IST" name="tearDown" finished-at="2025-04-29T15:51:02 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blockchain.tests.SigninFlowTests -->
+    </test> <!-- SignIn Flow Tests -->
+    <test started-at="2025-04-29T15:51:02 IST" name="OCN Flow Tests" finished-at="2025-04-29T15:52:04 IST" duration-ms="62279">
+      <class name="com.blockchain.tests.OnboardingOCNNodeFlowTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" started-at="2025-04-29T15:51:02 IST" name="setUp" finished-at="2025-04-29T15:51:14 IST" duration-ms="12062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDashboardOptionNdesArePresent()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" started-at="2025-04-29T15:51:14 IST" name="verifyDashboardOptionNdesArePresent" finished-at="2025-04-29T15:51:21 IST" duration-ms="6588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardOptionNdesArePresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" started-at="2025-04-29T15:51:21 IST" name="tearDown" finished-at="2025-04-29T15:51:21 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" started-at="2025-04-29T15:51:21 IST" name="setUp" finished-at="2025-04-29T15:51:34 IST" duration-ms="13329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddingMultipleNodes()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" started-at="2025-04-29T15:51:34 IST" name="verifyAddingMultipleNodes" finished-at="2025-04-29T15:51:44 IST" depends-on-methods="com.blockchain.tests.OnboardingOCNNodeFlowTests.verifyDashboardOptionNdesArePresent" duration-ms="9574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingMultipleNodes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" started-at="2025-04-29T15:51:44 IST" name="tearDown" finished-at="2025-04-29T15:51:44 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" started-at="2025-04-29T15:51:44 IST" name="setUp" finished-at="2025-04-29T15:51:55 IST" duration-ms="10977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddingOnboardOCNNode()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" started-at="2025-04-29T15:51:55 IST" name="verifyAddingOnboardOCNNode" finished-at="2025-04-29T15:52:04 IST" depends-on-methods="com.blockchain.tests.OnboardingOCNNodeFlowTests.verifyDashboardOptionNdesArePresent" duration-ms="9250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingOnboardOCNNode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.OnboardingOCNNodeFlowTests@74ea2410]" started-at="2025-04-29T15:52:04 IST" name="tearDown" finished-at="2025-04-29T15:52:04 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blockchain.tests.OnboardingOCNNodeFlowTests -->
+    </test> <!-- OCN Flow Tests -->
+    <test started-at="2025-04-29T15:52:04 IST" name="Signup Tests" finished-at="2025-04-29T15:53:24 IST" duration-ms="80094">
+      <class name="com.blockchain.tests.SignUpTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:04 IST" name="setUp" finished-at="2025-04-29T15:52:13 IST" duration-ms="8771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySingup()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:13 IST" name="verifySingup" finished-at="2025-04-29T15:52:19 IST" duration-ms="6233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:19 IST" name="tearDown" finished-at="2025-04-29T15:52:19 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:19 IST" name="setUp" finished-at="2025-04-29T15:52:24 IST" duration-ms="4985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySingupWithExisingUserDetails()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:24 IST" name="verifySingupWithExisingUserDetails" finished-at="2025-04-29T15:52:34 IST" duration-ms="9188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingupWithExisingUserDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:34 IST" name="tearDown" finished-at="2025-04-29T15:52:34 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:34 IST" name="setUp" finished-at="2025-04-29T15:52:42 IST" duration-ms="8468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySingupWithInvalidEmailAndValidPassword()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:42 IST" name="verifySingupWithInvalidEmailAndValidPassword" finished-at="2025-04-29T15:52:43 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingupWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:43 IST" name="tearDown" finished-at="2025-04-29T15:52:43 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:43 IST" name="setUp" finished-at="2025-04-29T15:52:51 IST" duration-ms="7875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySingupWithValidEmailAndWeakPassword()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:51 IST" name="verifySingupWithValidEmailAndWeakPassword" finished-at="2025-04-29T15:52:52 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingupWithValidEmailAndWeakPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:52 IST" name="tearDown" finished-at="2025-04-29T15:52:52 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:52:52 IST" name="setUp" finished-at="2025-04-29T15:53:03 IST" duration-ms="11241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySingupWithValidEmailAndWeakPasswordToTakeScreenshot()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:53:03 IST" name="verifySingupWithValidEmailAndWeakPasswordToTakeScreenshot" finished-at="2025-04-29T15:53:24 IST" duration-ms="20568" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .cta-container .MuiButtonBase-root' (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .cta-container .MuiButtonBase-root' (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.blockchain.reusablemethods.ReusableWrapperMethods.waitForWebElementToAppear(ReusableWrapperMethods.java:34)
+at com.blockchain.pageobjects.XaltPortalPage.goToSignUpPage(XaltPortalPage.java:158)
+at com.blockchain.tests.SignUpTests.verifySingupWithValidEmailAndWeakPasswordToTakeScreenshot(SignUpTests.java:92)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".cta-container .MuiButtonBase-root"}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.2', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b548a47dc43a7e9f3e757e0485e27f1, findElement {value=.cta-container .MuiButtonBase-root, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: /var/folders/g7/kckwx0nn5f3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63248}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63248/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b548a47dc43a7e9f3e757e0485e27f1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingupWithValidEmailAndWeakPasswordToTakeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.SignUpTests@202b0582]" started-at="2025-04-29T15:53:24 IST" name="tearDown" finished-at="2025-04-29T15:53:24 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blockchain.tests.SignUpTests -->
+    </test> <!-- Signup Tests -->
+    <test started-at="2025-04-29T15:53:24 IST" name="SignOut Tests" finished-at="2025-04-29T15:53:41 IST" duration-ms="16360">
+      <class name="com.blockchain.tests.SignOutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blockchain.tests.SignOutTests@7161d8d1]" started-at="2025-04-29T15:53:24 IST" name="setUp" finished-at="2025-04-29T15:53:34 IST" duration-ms="10075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verfiySignOut()[pri:0, instance:com.blockchain.tests.SignOutTests@7161d8d1]" started-at="2025-04-29T15:53:34 IST" name="verfiySignOut" finished-at="2025-04-29T15:53:41 IST" duration-ms="6074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiySignOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blockchain.tests.SignOutTests@7161d8d1]" started-at="2025-04-29T15:53:41 IST" name="tearDown" finished-at="2025-04-29T15:53:41 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blockchain.tests.SignOutTests -->
+    </test> <!-- SignOut Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
